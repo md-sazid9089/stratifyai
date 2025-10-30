@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Business Plan Review",
+    "category": "Consulting",
+    "price": 40,
+    "rating": 4.8,
+    "description": "AI-assisted review of your business plan with detailed feedback.",
+    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "consultant": "Olivia Reed"
+  },
+  {
+    "id": 2,
+    "name": "Market Analysis",
+    "category": "Research",
+    "price": 55,
+    "rating": 4.9,
+    "description": "Comprehensive market research and competitor analysis for your startup.",
+    "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "consultant": "Marcus Chen"
+  },
+  {
+    "id": 3,
+    "name": "Pitch Deck Design",
+    "category": "Design",
+    "price": 65,
+    "rating": 4.7,
+    "description": "Professional pitch deck creation to attract investors and partners.",
+    "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "consultant": "Sarah Johnson"
+  },
+  {
+    "id": 4,
+    "name": "Financial Modeling",
+    "category": "Finance",
+    "price": 75,
+    "rating": 4.9,
+    "description": "Create accurate financial projections and models for your startup.",
+    "image": "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "consultant": "David Park"
+  },
+  {
+    "id": 5,
+    "name": "Brand Strategy",
+    "category": "Marketing",
+    "price": 50,
+    "rating": 4.6,
+    "description": "Develop a compelling brand identity and positioning strategy.",
+    "image": "https://images.pexels.com/photos/7413915/pexels-photo-7413915.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "consultant": "Emma Williams"
+  },
+  {
+    "id": 6,
+    "name": "Legal Foundations",
+    "category": "Legal",
+    "price": 60,
+    "rating": 4.8,
+    "description": "Essential legal setup and compliance guidance for startups.",
+    "image": "https://images.pexels.com/photos/8111769/pexels-photo-8111769.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "consultant": "James Martinez"
+  }
+]

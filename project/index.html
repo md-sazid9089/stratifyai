@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StratifyAi Startup Advisor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/theme.css">
+    <link rel="stylesheet" href="src/styles/base.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="module">
+      import { themeManager } from './src/utils/themeManager.js';
+      import { createThemeToggle } from './src/components/ThemeToggle.js';
+      
+      // Initialize theme system
+      themeManager.useSystemTheme();
+      
+      // Add theme toggle to your app (example)
+      const themeToggle = createThemeToggle();
+      document.body.appendChild(themeToggle);
+    </script>
+  </body>
+</html>
